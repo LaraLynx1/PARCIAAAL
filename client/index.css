@@ -1,0 +1,111 @@
+/* General */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 2em;
+	color: #333;
+	margin-bottom: 20px;
+}
+
+input[type='text'] {
+	padding: 10px;
+	font-size: 1em;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+
+button {
+	padding: 10px 20px;
+	font-size: 1em;
+	background-color: #be53f7;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-top: 10px;
+	transition: background-color 0.3s ease;
+}
+
+button:hover {
+	background-color: #a442d6;
+}
+
+/* Sección de jugadores */
+#players-list {
+	text-align: left;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+#players-list ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#players-list li {
+	font-size: 1.2em;
+	color: #555;
+	padding: 5px 0;
+}
+
+/* Sección de roles */
+#role {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+	color: #333;
+}
+
+/* Botones específicos */
+#marco-button,
+#polo-button,
+#start-game-button {
+	display: block;
+	width: 200px;
+	margin: 10px auto;
+}
+
+#marco-button,
+#polo-button {
+	background-color: #be53f7;
+}
+
+#start-game-button {
+	background-color: #be53f7;
+}
+
+#marco-button {
+	display: none; /* Oculto hasta que se seleccione Marco */
+}
+
+#polo-button {
+	display: none; /* Oculto hasta que se seleccione Polo */
+}
+
+/* Lista de Polos */
+#polo-list {
+	font-size: 1.2em;
+	color: #333;
+	margin-top: 20px;
+}
+
+#polo-list ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+#polo-list li {
+	padding: 5px 0;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+#polo-list li:hover {
+	background-color: #eaeaea;
+}
